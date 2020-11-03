@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+.join-telegram-container .text-center {
+    padding: 10px;
+ 
+}
+.btn.btn-sm {
+    background-color: #0088d1;
+}
+
+.list-inline-item {
+    padding: 5px 5px;
+   
+}
+.bg-primary img {
+    width: 20px;
+    height: 20px;
+}
+
+.text-white {
+    margin-right: 10px;
+}
+.list:hover {
+    color: rgb(26, 26, 182);
+}
+
+.koinot {
+    background: url(../DARYO.UZ/img/tornado.jpg);
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 30px;
+}
+
+.list-inline-item a {
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%;
+}
+.sLinks {
+    margin-left: 45px;
+}
+
+.sLinks a {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #353c42;
+    margin: 0 0 0 8px;
+    padding-top: 3px;
+    font-size: 15px;
+    
+}
+.headerTop {
+    
+    height: 40px;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    z-index: 991;
+
+}
+
+.intervyuText {
+    padding: 20px 24px;
+    border: 1px solid #e8e9ea;
+    font-size: 15px;
+    position: relative;
+    background: #fff;
+}
+
+.intervyuText:before {
+    width: 0;
+    height: 0;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-bottom: 18px solid #e8e9ea;
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: -17px;
+}
+
+.intervyuText:after {
+    width: 0;
+    height: 0;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-bottom: 18px solid #fff;
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: -15px;
+}
